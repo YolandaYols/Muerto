@@ -11,10 +11,30 @@ import java.util.List;
 public class Post {
     private String titule;
     private Date day;
-    private List<String> reply;
     private String imagen;
     private User user;
     private Category category;
+    private int like;
+    private int dislike;
+    
+    
+
+    public int getLike() {
+        return like;
+    }
+
+    public void setLike(int like) {
+        this.like = like;
+    }
+
+    public int getDislike() {
+        return dislike;
+    }
+
+    public void setDislike(int dislike) {
+        this.dislike = dislike;
+    }
+    
 
     public String getTitule() {
         return titule;
@@ -31,14 +51,6 @@ public class Post {
 
     public void setDay(Date day) {
         this.day = day;
-    }
-
-    public List<String> getReply() {
-        return reply;
-    }
-
-    public void setReply(List<String> reply) {
-        this.reply = reply;
     }
 
     public String getImagen() {
