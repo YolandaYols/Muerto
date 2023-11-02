@@ -29,6 +29,7 @@ public class Main1 {
         generico -> puede ser de cualquier tipo
         
         */
+        //hahhahahahhahahan
         
         User user = new User();
         user.setName("Yols");
